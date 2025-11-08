@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Perusahaan | REVOU</title>
+    <link rel="icon" type="image/png" href="/img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-sm">
+            <h1 id="name">Hai, Pengunjung!</h1>
+
+            <input type="text" id="your_name" placeholder="Masukkan nama anda">
+            <button onclick="tampilkanNama()">Save</button>
+
+            <section class="banner">
+                <img class="hover-zoom" src="img/logo.png" width="100px" alt="Banner Perusahaan">
+            </section>
+
+            <nav>
+                <ul>
+                    <li class="hover-zoom"><a href="#">Beranda</a></li>
+                    <li class="hover-zoom"><a href="#about-company">Tentang Perusahaan</a></li>
+                    <li class="hover-zoom"><a href="#about-me">Tentang Saya</a></li>
+                    <li class="hover-zoom"><a href="#social-media">Media Sosial</a></li>
+                    <li class="hover-zoom"><a href="#message-us">Hubungi Saya</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-company" id="about-company">
+        <h2>
+            <marquee bgcolor="blue" behavior="alternate" scrollamount=15>
+                <font>Tentang Perusahaan</font>
+            </marquee>
+        </h2>
+        <p>RevoU adalah perusahaan edutech (pendidikan teknologi) yang menawarkan bootcamp dan kursus online
+            untuk
+            membekali
+            individu dengan keterampilan digital yang relevan dengan industri teknologi di Indonesia. Platform
+            ini
+            didirikan
+            pada tahun 2019 oleh Matteo Sutto dan fokus pada bidang-bidang seperti digital marketing, data
+            analytics,
+            dan
+            product management. RevoU terkenal dengan programnya yang menggabungkan pembelajaran intensif secara
+            langsung
+            (live) dengan dukungan karier yang komprehensif untuk membantu peserta siap kerja dan mempercepat
+            karier di
+            industri teknologi.</p>
+        <hr>
+    </section>
+
+    <div class="company">
+        <font face="Arial" size=3 color="blue">
+            <h2>Detail perusahaan REVOU:</h2>
+        </font>
+        <p>Didirikan: Awal Juni 2019 oleh Matteo Sutto, yang sebelumnya menjabat di Zalora dan iPrice Group.</p>
+        <font face="Arial" size=3 color="black">
+            <h3>Bidang Keahlian:</h3>
+        </font>
+
+        <ol type="1">
+            <li>Digital Marketing</li>
+            <li>Data Analyst</li>
+            <li>Software Engineering</li>
+            <li>Product Management</li>
+            <li>Artificial Intelegent(AI)</li>
+        </ol>
+    </div>
+
+    <section id="about-me">
+        <h2>
+            <marquee bgcolor="pink" behavior="alternate" scrollamount=15>
+                <font>Tentang Saya</font>
+            </marquee>
+        </h2>
+        <p>Saya adalah seorang siswa di SMK Wikrama Bogor yang mengambil jurusan Pengembangan Perangkat Lunak dan Gim
+            (PPLG).<br> Ia mempelajari berbagai hal terkait dunia teknologi, terutama dalam bidang pemrograman,
+            pembuatan
+            aplikasi, dan pengembangan gim.</p>
+        <p>Saya terus berusaha meningkatkan keterampilan dalam pemrograman dan desain, dengan tujuan dapat menciptakan
+            karya
+            yang bermanfaat, efektif, dan berkualitas.<br>
+            Saya percaya bahwa kerja keras dan ketekunan adalah kunci menuju kesuksesan.</p>
+        <hr>
+    </section>
+
+    <div class="education">
+        <font face="Times New Roman" size=3 color="pink">
+            <h2><u>Latar Belakang Pendidikan</u></h2>
+        </font>
+        <ul>
+            <li><b>SD: </b>SDN Srogol 1</li>
+            <li><b>SMP: </b>SMPN 1 Cigombong</li>
+            <li><b>SMK: </b>SMK Wikrama Bogor</li>
+        </ul>
+    </div>
+
+    <div class="hobby">
+        <font face="Times New Roman" size=3 color="pink">
+            <h2><u>Minat dan Hobi</u></h2>
+        </font>
+        <p>Saya memiliki minat yang besar dalam bidang pengembangan perangkat lunak, khususnya pembuatan aplikasi web
+            dan
+            mobile.<br> Saya senang mengeksplorasi teknologi terbaru, mempelajari bahasa pemrograman baru, serta
+            mengembangkan
+            proyek-proyek kreatif yang bermanfaat.</p>
+        <p>Selain itu, hobi saya termasuk mengutak-atik kode, mengikuti komunitas teknologi, dan bermain game strategi
+            untuk
+            melatih kemampuan analisis dan logika.<br> Aktivitas ini tidak hanya menyenangkan, tetapi juga membantu saya
+            mengasah
+            keterampilan problem solving yang penting dalam dunia teknologi.</p>
+    </div>
+
+    <section id="social-media">
+        <h2>
+            <marquee bgcolor="yellow" behavior="alternate" scrollamount="15">
+                <font>Media Sosial</font>
+            </marquee>
+        </h2>
+        <ul>
+            <li><a href="https://www.instagram.com/yazid_diansyah_o_o?igsh=dHBtY3U3dzdmMG1l"
+                    target="_blank">Instagram</a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/yazid-diansyah-56aa62383/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.tiktok.com/@herman.skibidi?_r=1&_t=ZS-91DJCKnHSXS" target="_blank">TikTok</a></li>
+        </ul>
+        <hr>
+    </section>
+
+    <section id="message-us">
+        <div class="form-container">
+            <h2>Hubungi Saya</h2>
+            <form id="messageForm">
+                <label class="labelA" for="nama">Nama: </label><br>
+                <input class="inputA" type="text" id="nama" name="nama" placeholder="Masukkan nama anda" required><br>
+
+                <label class="labelA" for="tanggal">Tanggal Lahir: </label><br>
+                <input class="inputA" type="date" id="tanggal" name="tanggal" required><br>
+
+                <label>Jenis Kelamin:</label>
+                <div class="gender-group" style="text-align: center;">
+                    <input type="radio" id="laki" name="gender" value="Laki-Laki" required>
+                    <label for="laki">Laki-Laki</label>
+                    <input type="radio" id="perempuan" name="gender" value="Perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </div>
+
+                <label class="labelA" for="pesan">Pesan: </label><br>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea><br>
+
+                <button type="submit">Submit</button>
+
+                <div class="result-container">
+                    <p>Current time:<br> <span id="currentTime"></span></p>
+                    <p><strong>Nama:</strong><br> <span id="resultNama">-</span></p>
+                    <p><strong>Tanggal Lahir:</strong><br> <span id="resultTanggal">-</span></p>
+                    <p><strong>Jenis Kelamin:</strong><br> <span id="resultGender">-</span></p>
+                    <p><strong>Pesan:</strong><br> <span id="resultPesan">-</span></p>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
